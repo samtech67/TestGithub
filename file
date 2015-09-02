@@ -1,3 +1,12 @@
- Mostly new content has been added in the file.
- That can be edited as per the requirement.
+ Mostly new content has been added in the file
 
+
+
+
+ Management Information Base (MIB) is a translator that helps the Management station to undertsand the SNMP responses from the network devices.The SNMP OID is assigned to an individual object within a Management Information Base (MIB).When the SNMP manager requests the value of any object, it assembles a message with the OID, which is sent to the MIB for decoding. If the OID is listed within the MIB at that particular management station, a message is sent back to the manager including the value requested for that particular OID.MIB Browser or MIB Walker is a tool that pulls data from SNMP enabled devices, helping to identify the objects which are responding to the query..
+
+ SNMP works by querying/polling objects. Objects can be defined as a part of the network for which we can gather information. For example querying an Interface Status should return a variable - the interface could either be up or down.SNMP identifies Objects with OID's which stand for Object Identifier's.OID's are very structured, similar to hierarchial tree pattern or a folder structure on the Computer. All SNMP objects are numbered.OID is a string of numbers readable only to the MIB
+
+
+Get: SNMP sends a get request to the device it monitors to retrieve a specific information.
+Get Next: A getnext command is used by SNMP to get the next variable in a set.
